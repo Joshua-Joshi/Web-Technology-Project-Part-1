@@ -1,3 +1,57 @@
 * {
     font-family: Arial, Helvetica, sans-serif;
 }
+
+/* Removes default padding and margin from body tag */
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+/* Adds margin and padding to just main */
+main {
+    margin: 8px;
+    padding: 8px;
+}
+
+/* ------------------------------------------ */
+/* ------- Heading and Navigation CSS ------- */
+/* ------------------------------------------ */
+
+/* formats the header */
+header {
+    background-color: #77DD77;
+    margin: 0px;
+    padding: 16px;
+    text-align: center;
+}
+
+/* removes default margin and padding from header h1 */
+header h1 {
+    font-size: 4em;
+    margin: 0px;
+    padding: 0px;
+}
+
+/* formats the navigation bar */
+nav ul {
+    background-color: #77DD77;
+    margin: 0px;
+    padding: 8px;
+    text-align: center;
+}
+
+/* removes dots and displays the lines horizontally */
+nav li { 
+    list-style: none;
+    display: inline-block;
+    padding: 10px;
+}
+
+/* formats the navigation links */
+nav a { 
+    font-size: 1.5em;
+    text-decoration: none;
+}
+
+
