@@ -28,6 +28,7 @@ header {
 
 /* removes default margin and padding from header h1 */
 header h1 {
+    letter-spacing: 0.1em;
     font-size: 4em;
     margin: 0px;
     padding: 0px;
@@ -37,7 +38,6 @@ header h1 {
 nav ul {
     background-color: #77DD77;
     margin: 0px;
-    padding: 8px;
     text-align: center;
 }
 
@@ -45,7 +45,7 @@ nav ul {
 nav li { 
     list-style: none;
     display: inline-block;
-    padding: 10px;
+    padding: 20px 40px; /* top and bottom, left and right */
 }
 
 /* formats the navigation links */
